@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.lockRadio__img{
+	content:url(../images/lock_test_white.png);
+	height:50px;
+	width:40px;
+}
+
+[type=radio]{
+	position: absoulte;
+	opacity:0;
+	width: 0;
+	height:0;
+}
+
+.bin_yellow{
+	background-color: #FFCC33;
+}
+

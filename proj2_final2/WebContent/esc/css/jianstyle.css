@@ -1,0 +1,423 @@
+/*1227 지안 일부 수정하였으나 전체 덮어씌워주세요*/
+
+      
+/*지안, 수빈  로그인, 회원가입 헤더 높이 수정 */
+.site-section-cover1 {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden; }
+  .site-section-cover1,
+  .site-section-cover1 .container {
+    position: relative;
+    z-index: 2; }
+  .site-section-cover1,
+  .site-section-cover1 .container > .row {
+    height: calc(50vh - 196px);
+    min-height: 500px; }
+    @media (max-width: 991.98px) {
+      .site-section-cover1,
+      .site-section-cover1 .container > .row {
+        height: calc(50vh - 196px);
+        min-height: 500px; } }
+  .site-section-cover1.overlay {
+    position: relative; }
+    .site-section-cover1.overlay:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.3);
+      z-index: 1; }
+  .site-section-cover1.inner-page,
+  .site-section-cover1.inner-page .container > .row {
+    height: auto;
+    min-height: auto;
+    padding: 2em 0; }
+  .site-section-cover1.img-bg-section {
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .site-section-cover1 h1 {
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1; }
+    @media (max-width: 991.98px) {
+      .site-section-cover1 h1 {
+        font-size: 2rem; } }
+  .site-section-cover1 p {
+    font-size: 18px;
+    color: #fff; }
+
+.site-section1 {
+  padding: 7rem 0; }
+  @media (max-width: 991.98px) {
+    .site-section1 {
+      padding: 3rem 0; } }
+/*지안, 수빈 로그인, 회원가입 헤더 높이 수정 */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+       
+     /* reserve page  */
+     /* reserve page - div List */
+     
+  
+     
+     .reserveBoxList > div > span {
+        font-size: 30px; 
+        color:white;
+     }
+     
+     .reserveBoxList > div:nth-of-type(2) > span{
+        padding-left: 80px;
+     }
+     
+     .reserveBoxList > div:nth-of-type(3) > span{
+        padding-left: 60px;
+     }
+     .reserveBoxList > div{
+        margin-bottom: 20px;
+        padding-top:10px;
+        padding-right:10px;
+     }
+     
+     .reserveBoxList > div:first-of-type{
+        margin-left:10px;
+        width:150px; 
+        height: 70px;
+      float: left; 
+      background-image:url('../images/reserveBak1.png');
+      background-size: 150px 70px; 
+      background-repeat:no-repeat; 
+      text-align:center;
+    }
+     
+     .reserveBoxList > div:nth-of-type(2){
+        width:280px; 
+        margin-left:10px;
+        height: 70px;
+      float: left; 
+      background-image:url('../images/reserveBak1.png');
+      background-size: 280px 70px; 
+      background-repeat:no-repeat; 
+   
+    }
+     
+     .reserveBoxList > div:nth-of-type(3){
+        width:200px; 
+        height: 70px;
+      float: left; 
+      background-image:url('../images/reserveBak1.png');
+      background-size: 200px 70px; 
+      background-repeat:no-repeat; 
+   
+    }
+    
+    .reserveBoxList > div:last-of-type{
+        width:440px; 
+        height: 70px;
+      float: left; 
+      background-image:url('../images/reserveBak2.png');
+      background-size: 440px 70px; 
+      background-repeat:no-repeat; 
+      text-align:center;
+    }
+     
+     
+     
+     
+     
+     /*reserve page - select*/
+     
+     .reserveSelectBox{
+        padding-top: 50px;
+     }
+     
+     .reserveSelectBox > select.form-select{
+        text-align-last:center; 
+        overflow: auto;
+        border: none;
+     }
+     
+  
+     .reserveSelectBox > select.form-select:first-of-type {
+      width:120px; 
+      margin-left:10px; 
+      margin-right:10px;
+   }
+   
+   .reserveSelectBox > select.form-select:nth-of-type(2) {
+      width:290px; 
+   }
+   
+   div.reserveSelectBox > select.form-select:nth-of-type(3) {
+      width:200px; 
+      margin-right:10px;
+      
+   }
+   
+   div.reserveSelectBox > select.form-select:last-of-type {
+      width:440px;
+   }
+   
+   div.reserveSelectBox > select.form-select >option{
+      margin:12px;
+      font-size: 22px;
+   }
+   /*reserve page End*/
+   
+   
+   
+   
+   
+   
+   
+   /*reserve detail page*/
+    /* reserve detail #InfoBoxTable*/
+  
+    
+    .heartUserid {
+       margin-bottom:5px;
+       text-align: center;
+       width:300px;
+       margin-left: 818px;
+    }
+    
+    .heartUserid > div{
+    text-align: center;
+       
+    }
+
+    .heartUserid  > div > span{
+       font-size: 20px;
+    }
+    
+  .InfoBoxTable{
+      border: 2px solid gray;
+      width: 1100px;
+      height: 400px;
+      font-size:18px;
+  }
+  
+  .InfoBoxTable > tbody> tr> td:first-of-type{
+     width:300px;
+  }
+  .InfoBoxTable > tbody> tr> td {
+     text-align: center;
+     border: 2px solid  rgb(153,153,153);
+     width: 380px;
+   }
+  
+  
+  .InfoBoxTable > tbody > tr > th {
+     background-color: rgb(22,195,176);
+     text-align: center;
+     color: white;
+     width: 250px;
+  }
+  
+  .InfoBoxTable > tbody > tr:nth-of-type(2) > td:nth-of-type(2) {
+     width: 25px;
+  }
+  
+  
+  
+   .InfoBoxTable > tbody > tr > td > select.numList{
+         width: 100px;
+         text-align-last:center;
+   }
+   
+    .InfoBoxTable > tbody > tr > th.detailInfo {
+     color: rgb(246,246,246);
+     border: 1px solid rgb(153,153,153);
+     width:180px;
+  
+  }
+  
+  
+  
+   /* reserve detail #PayBoxTable*/
+  .PayBoxTable {
+     width:1100px; 
+     height: 250px;
+     border: 1px solid rgb(153,153,153);
+     font-size: 18px;
+  }
+  
+   .PayBoxTable input[type="text"] {
+         text-align: right;
+         margin-right: 10px;
+   }
+    
+  .PayBoxTable > tbody> tr:first-of-type {
+      background-color: rgb(153,153,153);
+      text-align: center;
+  }
+  
+  .PayBoxTable > tbody> tr:first-of-type> th:first-of-type {
+      background-color: rgb(153,153,153);
+      width: 140px;
+
+  }
+  .PayBoxTable > tbody> tr:first-of-type > td:last-of-type {
+      padding-right: 10px;
+  }
+  
+  .PayBoxTable > tbody> tr:first-of-type > td:last-of-type > span {
+      color:red;
+  }
+   .PayBoxTable > tbody> tr > th:first-of-type {
+      background-color: rgb(210,210,210);
+      text-align: center;
+      
+    }
+    
+    .PayBoxTable > tbody> tr:nth-child(2) 
+       > td:nth-of-type(2) > input[type="button"]{
+      background-color: rgb(22,195,176);
+      color : white; 
+      border: none; 
+      border-radius: 5px;
+    }
+    
+    .PayBoxTable > tbody> tr:nth-child(4){
+      padding-left:10px;
+    }
+    .PayBoxTable > tbody> tr > td:first-of-type {
+      text-align: center;
+    }
+    
+    form[name="reserveDetailfrm"] > div 
+       > input[type="button"]{
+       background-color: gray; 
+       color:white;
+       width: 70px;
+       height: 50px;
+       font-size: 20px;
+       border: none;
+       border-radius: 10px;
+       margin:5px;
+       margin-top: 20px;
+    }
+    
+    form[name="reserveDetailfrm"] > div 
+       > input[type="submit"]{
+       background-color: gray; 
+       color:white;
+       width: 70px;
+       height: 50px;
+       font-size: 20px;
+       border: none;
+       border-radius: 10px;
+       margin:5px;
+       margin-top: 20px;
+    }
+    
+    /*reserve detail page End*/
+    
+    
+    
+    /*메인*/
+    
+    
+    /*#mainHeader 색이랑 #mainImg 색이랑 같이 줘야함... 
+     하나의 에 넣질 못하고 분리해놨기때문에..ㅜㅜ */
+     
+    #mainHeader{
+       width:100%; 
+       height:200px; 
+       background-color: rgb(223,220,228);
+       text-align: center;
+    }
+    
+    #mainHeader > div {
+       padding-top: 50px;
+    }
+    
+   #mainHeader > div > hr {
+       width: 1000px; 
+       border:3px solid gray;
+    } 
+    
+    #mainHeader > div > span{
+       font-size:40px;
+       color:  rgb(22,195,176);
+      font-weight: 300;
+    } 
+    
+    #mainImg {
+       background-color: rgb(223,220,228);
+       height: 600px;
+       
+    }
+    
+    #mainImg > div:first-of-type{
+       height:500px;
+    }
+    
+    
+     #mainImg > #carouselExampleInterval > .carousel-inner > 
+          div {
+      text-align: center;
+    }
+    
+    
+    
+    #mainImg > #carouselExampleInterval > .carousel-inner > 
+          div > a > img{
+      object-fit:contain;
+      height:400px;
+    }
+    
+    
+    
+    
+    #mainImg > #carouselExampleInterval > a {
+       height: 400px;
+       color: black;
+       font-size: 50px;
+    }
+    
+   
+    #mainImg > #carouselExampleInterval > a >span {
+       background-size: 30px;
+    
+    }
+   
+   
+    #mainImg > #carouselExampleInterval > a:first-of-type {
+         width:40%;
+         padding-left:20%;
+   }
+   
+   #mainImg > #carouselExampleInterval > a:last-of-type {
+      width: 40%;
+      padding-right:20%;
+   }
+   
+   
+    #mainImg > div > hr{
+       margin-top:50px;
+       width: 1000px; 
+       border:3px solid gray;
+    }
+   
+   /*이거 풀면 버튼 검은색, 이거 주석 달면 흰색*/ 
+    .carousel-control-prev-icon { 
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%20000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); 
+    }
+
+   .carousel-control-next-icon {
+         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%25000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); 
+   }

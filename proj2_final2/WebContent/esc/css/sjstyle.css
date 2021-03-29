@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.table-striped-even tbody tr:nth-of-type(even){
+	background-color:rgba(0, 0, 0, 0.05)}
+
+.table-striped-odd tbody th{
+	background-color:rgba(0, 0, 0, 0.05)}
+	
+.text-info {
+  color: #17a2b8; }
+
+.text-register {
+	color: gray;
+}  
+
+#text_search {
+	color: gray;
+	
+}
+
+.container_search{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: #ffffff;
+    border-radius: 16px;
+    margin: 10px 0 0;
+	padding-left: 14px;
+	display: inline;
+}
+
+.container_search > .input_text {
+	color: #b8b8b8;	
+}
+
+.text-register-none{
+	border-style: none;
+}  
+
+.sendSearch{
+	background-image: url('../images/searchIcon.png');
+	background-size: 100%;
+	background-position:  0px 0px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+	border: none; 
+	width:25px;
+}
